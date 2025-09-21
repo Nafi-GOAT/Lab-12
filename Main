@@ -57,6 +57,15 @@ int main() {
     else
         cout << searchVal << " mm not found\n";
 
+    array<double, DAYS> filler;
+    filler.fill(0.0); // simulate empty rainfall record
+    cout << "\nFiller array created. Swapping with rainfall...\n";
+    rainfall.swap(filler);
+
+    cout << "After swap, rainfall first element = " << rainfall.front() << " mm\n";
+
+    return 0;
+}
 
 
 
