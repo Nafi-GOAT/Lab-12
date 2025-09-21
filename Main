@@ -24,4 +24,4 @@ int main() {
     // Display raw data
     cout << "Rainfall for 30 days (mm):\n";
     for (double r : rainfall) cout << r << " ";
-    cout << "\n\n";
+    cout << "\n\n"; 
