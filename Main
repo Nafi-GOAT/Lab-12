@@ -36,3 +36,6 @@ int main() {
     cout << "Total rainfall: " << total << " mm\n";
     cout << "Average daily rainfall: " << avg << " mm\n";
 
+    cout << "Lowest rainfall: " << *min_element(rainfall.begin(), rainfall.end()) << " mm\n";
+    cout << "Highest rainfall: " << *max_element(rainfall.begin(), rainfall.end()) << " mm\n";
+
