@@ -4,3 +4,15 @@
 #include <algorithm>
 #include <numeric>
 using namespace std;
+
+const int DAYS = 30;
+
+int main() {
+    array<double, DAYS> rainfall;
+
+    ifstream fin("rainfall.txt");
+    if (!fin) {
+        cerr << "Error: could not open rainfall.txt\n";
+        return 1;
+    }
+
