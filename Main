@@ -1,1 +1,6 @@
-
+#include <iostream>
+#include <array>
+#include <fstream>
+#include <algorithm>
+#include <numeric>
+using namespace std;
