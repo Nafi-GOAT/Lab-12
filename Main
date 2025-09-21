@@ -16,3 +16,12 @@ int main() {
         return 1;
     }
 
+    for (int i = 0; i < DAYS; i++) {
+        fin >> rainfall[i];
+    }
+    fin.close();
+
+    // Display raw data
+    cout << "Rainfall for 30 days (mm):\n";
+    for (double r : rainfall) cout << r << " ";
+    cout << "\n\n";
